@@ -28,6 +28,7 @@ todoBtn.addEventListener('click', function(){
                 localStorage.clear();
                 saveToLocalStorage();
             }
+            
         }
     }
   }
@@ -53,6 +54,3 @@ todoBtn.addEventListener('click', function(){
     }
     todoUl.innerHTML += newValues;
  }
-
- 
-
