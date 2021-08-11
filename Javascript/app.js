@@ -25,7 +25,7 @@ todoBtn.addEventListener('click', function(){
         for(let i = 0; i < items.length; i++){
             if(items[i]==e.parentElement.innerText){
                 items.splice(i,1);
-                localStorage.clear();
+                localStorage.removeItem("items");
                 saveToLocalStorage();
             }
             
