@@ -1,4 +1,3 @@
-# todoapp
 # Side Hustle frontend development group- To Do App Solution
 
 

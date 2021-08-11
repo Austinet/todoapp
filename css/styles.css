@@ -1,0 +1,133 @@
+:root {
+    --color1:#fff;
+    --color2: #114c7d; 
+    --color3: #38c8a8;
+    --color4: rgb(26, 192, 100);
+    --color5:rgb(14, 120, 134);
+    --color6: goldenrod;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 1rem;
+    color: var(--color1);
+    text-align: center;
+    background-color: var(--color5);
+}
+.wrapper {
+     width: 80%;
+     margin: 3.5rem auto;
+ }
+ .header {
+    padding: 1.2rem;
+    max-width: 95%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+h3 {
+    color: var(--color6);
+    font-size: 1.4rem;
+}
+.header p {
+    color: var(--color2);
+    font-size: 1.2rem;
+    margin: 0.7rem auto;
+}
+.form {
+    display: flex;
+    max-width: 95%;
+    margin: auto;
+    padding: 1rem;  
+}
+input {
+    width: 85%;
+    background: var(--color1);
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 0.4rem;
+    font-size: 18px;
+}
+input::placeholder {
+    font-size: 18px;
+}
+ button {
+    padding: 0.7rem;
+    cursor: pointer;
+    background:var(--color4);
+    color: var(--color3);
+    border: none;
+    outline: none;
+}
+.form button {
+    background: var(--color2);
+    padding: 0.5rem 2.5rem;
+    border-radius: 5px;
+    color: var(--color3);
+}
+
+i {
+    font-size: 20px;
+}
+li i {
+    font-size: 1.7rem;
+     color: var(--color2);
+}
+
+li {
+    list-style-type: none;
+    width: 60%;
+    border: 2px solid var(--color2);
+    border-radius: 5px;
+    background-color: var(--color4);
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+li p {
+    color: var(--color2);
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;  
+}
+#first-paragraph {
+    color:  var(--color4);
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:815px) {
+  html{
+      font-size: 14px;
+  }   
+  .wrapper{
+      width: 100%;
+  } 
+  input {
+      width: 95%;
+  }
+}
+@media screen and (max-width:420px){
+        html {
+            font-size: 12px;
+        }
+        body {
+        padding: 1rem 0.5rem;
+        }
+
+       .form {
+        padding: 0;
+       }
+       .form button {
+        padding: 0.5rem 1.5rem;
+       }
+}

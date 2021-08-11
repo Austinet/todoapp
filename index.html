@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Udhe Austine Ogaga">
+    <meta name="discription" content="To Do App, that saves your items on the local storage."
+    <title>TO DO APP BY AUSTINET</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+</head>
+<body>
+   <div class="wrapper">
+       <div class="header">
+           <h1>WORK TO DO</h1>
+           <h3>Enter text into the input field to add items to your list(max. 28 characters).</h3>
+           <p id="first-paragraph">Click the item to mark it as complete</p>
+           <p>Click the "X" to remove the item from your list</p>
+       </div>
+       <div class="main">
+          <div class="for form">
+              <input type="text" maxlength="28" id="todo-input" placeholder="New Item">
+              <button id="todo-btn"><i class="fas fa-pencil-alt"></i></button>
+          </div>
+          <div>
+               <ul  id="todo">
+
+               </ul>
+          </div>
+       </div>
+   </div>
+
+
+    <script src="Javascript/app.js"></script>
+</body>
+</html>
